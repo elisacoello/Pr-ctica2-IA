@@ -6,10 +6,11 @@
 **1. ¿Qué variable representa la lista ABIERTA?**
 La variable que representa la lista abierta en el código es la lista openSet, donde se añade inicialmente el nudo inicial (start), esto lo podemos encontrar inicialmente en el código asi:
 
-''' 
+´´´´
 java
 final List<Graph.Vertex> openSet = new ArrayList<Graph.Vertex>(size); // The set of tentative nodes to be evaluated, initially containing the start node openSet.add(start);
-'''
+
+´´´´
 
 **2. ¿Qué variable representa la función g?**
 
